@@ -10,3 +10,19 @@ button {
     border-radius: 5px;
     margin-left: 48%;
 }
+#comment-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.comments{
+    border: 2px solid orange;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 5px #918585;
+    background-color: antiquewhite;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 10px;
+}
+.comments:hover{
+    box-shadow: 10px 10px 8px rgb(243, 188, 86);
+}

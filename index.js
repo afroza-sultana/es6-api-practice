@@ -13,6 +13,7 @@ const displayComment = (comments) => {
 const commentBox = document.getElementById("comment-box");
 comments.forEach(comment => {
     const commentDetails = document.createElement("div");
+    commentDetails.classList.add("comments");
     commentDetails.innerHTML= `
     <p>postId: ${comment.postId} </p>
     <p>id: ${comment.id} </p>
